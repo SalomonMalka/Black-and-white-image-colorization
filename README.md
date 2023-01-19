@@ -12,28 +12,21 @@ Black and white image colorization -  Deep Learning project
 
 ## Table of contents
 
-- [project goal and Motivation](#project goal and Motivation)
-- [Previous work](#Previous work)
+- [Project goal and Motivation](#Project-goal-and-Motivation)
 - [Repository Description](#repository-description)
-- [Attention Mechanism](#Attention-Mechanism)
+- [Previous work](#Previous-work)
 - [Architecture](#Architecture)
-- [Requirement](#Requirement)
+- [Loss functions](#Loss-functions)
 - [Further development ideas](#further-development-ideas)
 - [References](#References)
 - [Notes](#Notes)
 
-## project goal and Motivation
+## Project goal and Motivation
+
 The problem of colorizing an image is very interesting and was not possible to do in automatically before machine learning was introduced.
 One of the biggest challenges in this problem is finding a loss function that
 
 Our goal was Using different types of loss functions to find out which one works better for this task.
-
-
-## Previous work
-
-
-## Architecture
-We use a Unet architecture, where the first half (the downsampling) is based on Resnet18 model.
 
 
 ## Repository Description
@@ -48,31 +41,16 @@ We use a Unet architecture, where the first half (the downsampling) is based on 
 | `res `                      | Folder consists of all the images from the project                                                |
 | `requirement.txt`           | File containing all the packages we used in this project                                          |
 | `FinalProjectDeepLearning.pdf`           | The report of the project                                          |
-## Attention Mechanism
-We proposed an attention mechanism that relies on a prior belief that much of the clues come from two major regions- the mouse region and the eyes region. Considering this fact we divide the images into two blocks.
-- Upper Block consists of the eyes and eyebrows.
-- Lower Block consists of the mouse.  
-We extract those two blocks by a pretrained model from OpenCv library and others helper functions we implemented.
 
-The fully explenation is in the report.
 
-<p align="center">
-  <img src=".\res\FlowChartAttention.png" width="350" alt="accessibility text">
-</p>
+## Previous work
+We used an article about building Colorization algorithm as our base line for the project. 
+Most of the sources we found use GAN architecture for their model, because it is capable of creating a loss function that estimate how “real” the image look, instead of more simple pixel to pixel loss functions. 
 
 ## Architecture
 
-The proposed architecture used for this work is further explained in the report
+## Loss functions
 
-<p align="center">
-  <img src=".\res\Architecture.png" width="350" alt="accessibility text">
-</p>
-
-## Requirement
-
-To run this project, you need to install several packages. For convenience, we created a `requirement.txt` file consists of all the packages used in this projcet.
-
-In order to install all the packages in the `requirement.txt` file, simply use to command `pip install -r requirements.txt`.
 
 ## Further development ideas
 
