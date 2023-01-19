@@ -49,6 +49,9 @@ Most of the sources we found use GAN architecture for their model, because it is
 
 ## Architecture
 
+  <img src="https://github.com/SalomonMalka/Black-and-white-image-colorization/blob/main/unet.png" height="300">
+  <p align="center">
+
 ## Loss functions
 
 
