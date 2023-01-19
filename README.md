@@ -2,7 +2,7 @@
   <br>
 Black and white image colorization -  Deep Learning project
   <br>
-  <img src="https://github.com/SalomonMalka/Black-and-white-image-colorization/blob/main/charlie.gif" height="200">
+  <img src="https://github.com/SalomonMalka/Black-and-white-image-colorization/blob/main/Resources/charlie.gif" height="200">
 </h1>
   <p align="center">
     <a href="https://github.com/SalomonMalka">Salomon Malka</a> •
