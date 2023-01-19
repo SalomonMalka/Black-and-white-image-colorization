@@ -2,17 +2,16 @@
 
 
 
-# ee046211-deep-learning
 
 <h1 align="center">
   <br>
-Technion EE 046211 - Deep Learning
+Technion EE 046211 - Deep Learning project
   <br>
   <img src="https://raw.githubusercontent.com/taldatech/ee046211-deep-learning/main/assets/nn_gumgum.gif" height="200">
 </h1>
   <p align="center">
-    <a href="https://taldatech.github.io">Tal Daniel</a> •
-    <a href="https://sites.google.com/danielsoudry">Daniel Soudry</a>
+    <a href="https://taldatech.github.io">Salomon malkc</a> •
+    <a href="https://sites.google.com/danielsoudry">aviv ish shalom</a>
   </p>
 
 Jupyter Notebook tutorials for the Technion's EE 046211 course "Deep Learning"
