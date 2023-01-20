@@ -51,24 +51,12 @@ Most of the sources we found use GAN architecture for their model, because it is
 
 
 ## Architecture
+We used a Unet architecture for our model. For the downsampling part we used convolution blocks  with residual connection between each block. Inside each block we did batch normalization and used LeakyReLU as an activation function. The convolution is done using 4X4 kernels and 𝑠𝑡𝑟𝑖𝑑𝑒=2 (no pooling). For the upsampling we used ConvTranspose2d 𝑠𝑡𝑟𝑖𝑑𝑒=2 (which means 𝑠𝑡𝑟𝑖𝑑𝑒=1/2) and batchnorm with ReLU activation.
 
-  <img src="https://github.com/SalomonMalka/Black-and-white-image-colorization/blob/main/Resources/unet.png" height="300">
-  <p align="center">
 
 ## Loss functions
-The most standard losses are MSE and L1 losses. 
-However, there are not a good choice when comparing images: there do not consider high level features
-
-<img src="https://github.com/SalomonMalka/Black-and-white-image-colorization/blob/main/Resources/exemple_mse.png" height="300">
-  <p align="center">
-
-
-There are a bunch of losses that compare images in a way that is closer to how human perceive images. 
-The losses we chose are:
-LPIPS (LEARNED PERCEPTUAL IMAGE PATCH SIMILARITY)
-Perceptual loss
-VGG
-They are essentially pretrained freezed networks that extract high level features of each images. The loss is the MSE loss between the features values
+The most standard losses are MSE and L1 losses. However, when it comes to human perception of images, these loss functions are not very good. Because they compare pixel to pixel, they don’t see the image structure and thus as a loss function for this task we expected they will not work.
+There are a few loss functions that compare images in a way that is closer to how human perceive images. One of them is called perceptual loss and the basic principle is to extract features from the predictions and ground truth using pretrained freezed image based network (we used vgg) and use MSE loss between those features instead of the actual images. 
 
 
 
