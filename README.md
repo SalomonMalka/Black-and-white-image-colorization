@@ -24,8 +24,8 @@ Black and white image colorization -  Deep Learning project
 
 ## Our final results
 <p float="left">
-  <img src="https://github.com/SalomonMalka/Black-and-white-image-colorization/blob/main/Resources/final_coloring_1.jpg" width="500" />
-  <img src="https://github.com/SalomonMalka/Black-and-white-image-colorization/blob/main/Resources/final_coloring_2.jpg" width="500" /> 
+  <img src="https://github.com/SalomonMalka/Black-and-white-image-colorization/blob/main/Resources/final_coloring_1.jpg" width="400" />
+  <img src="https://github.com/SalomonMalka/Black-and-white-image-colorization/blob/main/Resources/final_coloring_2.jpg" width="400" /> 
   <img src="/img3.png" width="500" />
   <p align="center">
 
