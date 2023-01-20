@@ -11,7 +11,7 @@ Black and white image colorization -  Deep Learning project
 
 
 ## Table of contents
-- [The final results](#The-final-results)
+- [Our final results](#Our-final-results)
 - [Project goal and Motivation](#Project-goal-and-Motivation)
 - [Repository Description](#repository-description)
 - [Previous work](#Previous-work)
@@ -22,7 +22,7 @@ Black and white image colorization -  Deep Learning project
 - [Notes](#Notes)
 
 
-## The final results
+## Our final results
 
 
 ## Project goal and Motivation
