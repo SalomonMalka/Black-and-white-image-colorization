@@ -11,7 +11,7 @@ Black and white image colorization -  Deep Learning project
 
 
 ## Table of contents
-
+- [The final results](#The-final-results)
 - [Project goal and Motivation](#Project-goal-and-Motivation)
 - [Repository Description](#repository-description)
 - [Previous work](#Previous-work)
@@ -20,6 +20,10 @@ Black and white image colorization -  Deep Learning project
 - [Further development ideas](#further-development-ideas)
 - [References](#References)
 - [Notes](#Notes)
+
+
+## The final results
+
 
 ## Project goal and Motivation
 
@@ -57,8 +61,8 @@ Most of the sources we found use GAN architecture for their model, because it is
 
 ## Further development ideas
 
-1. Try to expand our work to more facial expression datasets.
-2. Try different uses of the attention mechanism.
+1. Training with bigger dataset and on more epochs
+2. Try different perceptual loss functions to see if training times can be shorter.
 
 ## References
 
@@ -66,14 +70,6 @@ Most of the sources we found use GAN architecture for their model, because it is
 ](https://towardsdatascience.com/colorizing-black-white-images-with-u-net-and-conditional-gan-a-tutorial-81b2df111cd8)
 - A paper that was very usfull to us: [Colorful Image Colorization](https://arxiv.org/abs/1603.08511)
 - Another paper that was usfull to us: [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/abs/1611.07004)
-## Notes
-
-- The data, and the predictor are too big to be uploaded to GitHub. You can found them in the following links:
-  [train](https://drive.google.com/file/d/1wwtsQ1cCfpP132pGP7HZ5Ot7nmUZvimt/view?usp=sharing)
-  [validation](https://drive.google.com/file/d/1q5qOGdZ0zkmZgv5Avyc1OrWa-FYNQX3S/view?usp=sharing),
-  [test](https://drive.google.com/file/d/1pXyXMXUk08lZlnmqj-7hmD7xnKyM4Q7x/view?usp=sharing),
-  [raw-images](https://drive.google.com/drive/folders/1FjyYvSZAEPQaoROEpr5FLtK2yGmLkt6x?usp=sharing),
-  [predictor](https://drive.google.com/drive/folders/1o1DtnFnSwdRO8o23eW-a9jo_6cbY7ZA6?usp=sharing)
-  (for the raw images and the predictor you need to download the files and put them in a folder with the exact same name as in the original folder)
+- Another article on the colorization problem: [Image Colorization with Convolutional Neural Networks] (https://lukemelas.github.io/image-colorization.html)
 
 
