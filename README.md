@@ -76,6 +76,7 @@ They are essentially pretrained freezed networks that extract high level feature
 
 1. Training with bigger dataset and on more epochs
 2. Try different perceptual loss functions to see if training times can be shorter.
+3. Use a pretrained semantic segmentation network and apply it before the input. This should considerably improve the results as the colorization is done with the semantic component information of the image
 
 ## References
 
