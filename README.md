@@ -62,6 +62,10 @@ Most of the sources we found use GAN architecture for their model, because it is
 The most standard losses are MSE and L1 losses. 
 However, there are not a good choice when comparing images: there do not consider high level features
 
+<img src="https://github.com/SalomonMalka/Black-and-white-image-colorization/blob/main/Resources/exemple_mse.png" height="300">
+  <p align="center">
+
+
 There are a bunch of losses that compare images in a way that is closer to how human perceive images. 
 The losses we chose are:
 LPIPS (LEARNED PERCEPTUAL IMAGE PATCH SIMILARITY)
