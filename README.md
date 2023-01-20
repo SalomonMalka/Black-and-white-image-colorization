@@ -37,14 +37,11 @@ Our goal was Using different types of loss functions to find out which one works
 
 | Filename                    | description                                                                                       |
 | --------------------------- | ------------------------------------------------------------------------------------------------- |
-| `emotion-recognision.ipynb` | The main file in google colab format, including the prepossessing. to open import to google colab |
-| `emotion-recognision.py`    | The main file in Python format                                                                    |
-| `prepossessing.py`          | The prepossessing only in a python format                                                         |
-| `dataset.py`                | Python file consists of the implementation of the dataset object.                                 |
-| `architecture.py `          | Python file consists of the implementation of the proposed architecture.                          |
-| `res `                      | Folder consists of all the images from the project                                                |
-| `requirement.txt`           | File containing all the packages we used in this project                                          |
-| `FinalProjectDeepLearning.pdf`           | The report of the project                                          |
+| `final_model_training.ipynb` | The main file in google colab format, including the loading of dataset and training. to open import to google colab |
+| `test set and demo.ipynb`    | A testing file in google colab format, including coloring some test set images and an option to color your own images. to open import to google colab                                                                    |
+| `resorces `                      | Folder consists of all the images from the project                                                |
+| `trained unet using different loss functions`           | the pretrained whights for our final model trained using different loss functions                                          |
+| `FinalProjectDeepLearning.pptx`           | The project presentation                                        |
 
 
 ## Previous work
