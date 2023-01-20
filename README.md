@@ -51,12 +51,24 @@ Our goal was Using different types of loss functions to find out which one works
 We used an article about building Colorization algorithm as our base line for the project. 
 Most of the sources we found use GAN architecture for their model, because it is capable of creating a loss function that estimate how “real” the image look, instead of more simple pixel to pixel loss functions. 
 
+
+
 ## Architecture
 
   <img src="https://github.com/SalomonMalka/Black-and-white-image-colorization/blob/main/Resources/unet.png" height="300">
   <p align="center">
 
 ## Loss functions
+The most standard losses are MSE and L1 losses. 
+However, there are not a good choice when comparing images: there do not consider high level features
+
+There are a bunch of losses that compare images in a way that is closer to how human perceive images. 
+The losses we chose are:
+LPIPS (LEARNED PERCEPTUAL IMAGE PATCH SIMILARITY)
+Perceptual loss
+VGG
+They are essentially pretrained freezed networks that extract high level features of each images. The loss is the MSE loss between the features values
+
 
 
 ## Further development ideas
@@ -70,6 +82,6 @@ Most of the sources we found use GAN architecture for their model, because it is
 ](https://towardsdatascience.com/colorizing-black-white-images-with-u-net-and-conditional-gan-a-tutorial-81b2df111cd8)
 - A paper that was very usfull to us: [Colorful Image Colorization](https://arxiv.org/abs/1603.08511)
 - Another paper that was usfull to us: [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/abs/1611.07004)
-- Another article on the colorization problem: [Image Colorization with Convolutional Neural Networks] (https://lukemelas.github.io/image-colorization.html)
+- Another article on the colorization problem: [Image Colorization with Convolutional Neural Networks](https://lukemelas.github.io/image-colorization.html)
 
 
