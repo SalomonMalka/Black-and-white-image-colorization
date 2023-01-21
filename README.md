@@ -43,7 +43,7 @@ Our goal was Using different types of loss functions to find out which one works
 | --------------------------- | ------------------------------------------------------------------------------------------------- |
 | `final_model_training.ipynb` | The main file in google colab format, including the loading of dataset and training. to open import to google colab |
 | `test set and demo.ipynb`    | A testing file in google colab format, including coloring some test set images and an option to color your own images. to open import to google colab                                                                    |
-| `resorces `                      | Folder consists of all the images from the project                                                |
+| `resources `                      | Folder consists of all the images from the project                                                |
 | `trained unet using different loss functions`           | the pretrained whights for our final model trained using different loss functions                                          |
 | `FinalProjectDeepLearning.pptx`           | The project presentation                                        |
 
