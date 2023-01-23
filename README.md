@@ -60,7 +60,7 @@ Most of the sources we found use GAN architecture for their model, because it is
 
 
 ## Architecture
-We used a Unet architecture for our model. For the downsampling part we used convolution blocks  with residual connection between each block. Inside each block we did batch normalization and used LeakyReLU as an activation function. The convolution is done using 4X4 kernels and 𝑠𝑡𝑟𝑖𝑑𝑒=2 (no pooling). For the upsampling we used ConvTranspose2d 𝑠𝑡𝑟𝑖𝑑𝑒=2 (which means 𝑠𝑡𝑟𝑖𝑑𝑒=1/2) and batchnorm with ReLU activation.
+We used a Unet architecture for our model. For the downsampling part we used convolution blocks  with residual connection between each block. Inside each block we did batch normalization and used LeakyReLU as an activation function. The convolution is done using 4X4 kernels and 𝑠𝑡𝑟𝑖𝑑𝑒=2 (no pooling). For the upsampling we used ConvTranspose2d 𝑠𝑡𝑟𝑖𝑑𝑒=2 and batchnorm with ReLU activation.
 
 
 ## Loss functions
