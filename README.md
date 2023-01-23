@@ -79,8 +79,9 @@ There are a few loss functions that compare images in a way that is closer to ho
 
 - The article we used as a baseline for our project: [Colorizing black & white images with U-Net and conditional GAN — A Tutorial
 ](https://towardsdatascience.com/colorizing-black-white-images-with-u-net-and-conditional-gan-a-tutorial-81b2df111cd8)
-- A paper that was very usfull to us: [Colorful Image Colorization](https://arxiv.org/abs/1603.08511)
-- Another paper that was usfull to us: [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/abs/1611.07004)
+- A paper that was very usefull to us: [Colorful Image Colorization](https://arxiv.org/abs/1603.08511)
+- Another paper that was usefull to us: [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/abs/1611.07004)
 - Another article on the colorization problem: [Image Colorization with Convolutional Neural Networks](https://lukemelas.github.io/image-colorization.html)
+
 
 
