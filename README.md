@@ -48,6 +48,7 @@ Our goal was Using different types of loss functions to find out which one works
 | `ProjectPresentation.pptx`           | The project presentation                                        |
     
 <a name="How-to-use-?"/>
+
 ## How to use ?
 To colorize your own image you have to open the `Colorization_testing.ipynb` file and load the parameters of the model (which appear in the `trained unet using different loss functions` file). You can upload your own image in colab and use the function Colorize() to colorize it. This is explained at the end of the file. The image has to be in format .jpg, .jpeg or .png.
 
