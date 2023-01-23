@@ -14,12 +14,12 @@ Black and white image colorization -  Deep Learning project
 - [Our final results](#Our-final-results)
 - [Project goal and Motivation](#Project-goal-and-Motivation)
 - [Repository Description](#repository-description)
+- [How to use ?](#How-to-use-?)
 - [Previous work](#Previous-work)
 - [Architecture](#Architecture)
 - [Loss functions](#Loss-functions)
 - [Further development ideas](#further-development-ideas)
 - [References](#References)
-- [Notes](#Notes)
 
 
 ## Our final results
@@ -41,12 +41,14 @@ Our goal was Using different types of loss functions to find out which one works
 
 | Filename                    | description                                                                                       |
 | --------------------------- | ------------------------------------------------------------------------------------------------- |
-| `final_model_training.ipynb` | The main file in google colab format, including the loading of dataset and training. to open import to google colab |
-| `test set and demo.ipynb`    | A testing file in google colab format, including coloring some test set images and an option to color your own images. to open import to google colab                                                                    |
-| `resources `                      | Folder consists of all the images from the project                                                |
-| `trained unet using different loss functions`           | the pretrained whights for our final model trained using different loss functions                                          |
-| `FinalProjectDeepLearning.pptx`           | The project presentation                                        |
+| `Colorization_training.ipynb` | The main file in google colab format, including the loading of dataset and training. |
+| `Colorization_testing.ipynb`    | A testing file in google colab format, including coloring some test set images and an option to color your own images.                                                                 |
+| `Resources `                      | Folder consists of all the images from the project                                                |
+| `trained unet using different loss functions`           | The pretrained weights for our final model trained using different loss functions                                          |
+| `ProjectPresentation.pptx`           | The project presentation                                        |
 
+## How to use ?
+To colorize your own image you have to open the `Colorization_testing.ipynb` file and load the parameters of the model (which appear in the `trained unet using different loss functions` file). You can upload your own image in colab and use the function Colorize() to colorize it. This is explained at the end of the file. The image has to be in format .jpg, .jpeg or .png.
 
 ## Previous work
 We used an article about building Colorization algorithm as our base line for the project. 
