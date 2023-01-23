@@ -35,6 +35,7 @@ The problem of colorizing an image is very interesting and was not possible to d
 One of the biggest challenges in this problem is finding a loss function that
 
 Our goal was Using different types of loss functions to find out which one works better for this task.
+You can see the video presentation of the preject here: https://youtube.com/watch?v=kgDaKjT3Kwg&feature=shares 
 
 
 ## Repository Description
